@@ -1,0 +1,11 @@
+<nav class="p-5 bg-slate-50 ">
+    <ul class="flex gap-4">
+        @for (tab of tabsArray; track $index) {
+            <li (click)="active($index)">
+                <a  [class]="activeTabs === $index
+    ? 'text-blue-600 font-semibold '
+    : 'cursor-pointer text-gray-500'">{{tab}}</a>
+            </li>
+        }
+    </ul>
+</nav>
