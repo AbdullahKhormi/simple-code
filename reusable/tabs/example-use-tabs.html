@@ -1,0 +1,10 @@
+<div>
+    <app-tabs [tabsArray]="tabs" (changeTabs)="changeTab($event)"></app-tabs>
+    <div>
+    @if (activatedTabs==0) {
+        <p>tab 1</p>
+    }@else if (activatedTabs==1) {
+                <p>tab 2</p>
+    }
+</div>
+</div>
