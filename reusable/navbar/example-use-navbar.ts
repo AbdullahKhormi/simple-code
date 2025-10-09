@@ -14,11 +14,11 @@ items:any[]=[]
 constructor(){
 
   this.items=[
-    {label:"tabs", url:"tabs/example-tabs"},
-    {label:"breadcrumb", url:"breadcrumb/example-breadcrumb"},
-    {label:"buttons", url:"buttons/example-buttons"},
-    {label:"toast", url:"toast/example-toast"},
-    {label:"navbar", url:"navbar/example-navbar"},
+    {label:"tabs", url:""},
+    {label:"breadcrumb", url:""},
+    {label:"buttons", url:""},
+    {label:"toast", url:""},
+    {label:"navbar", url:""},
 
   ]
 }
