@@ -1,0 +1,12 @@
+<nav>
+  <ul class="flex gap-4 px-2">
+    @for (item of items; track $index) {
+         <li >
+      <a [routerLink]="item.url"  routerLinkActive="bg-red-50 underline"  [routerLinkActiveOptions]="{ exact: true }">
+        {{ item.label }}
+      </a>
+    </li>
+    }
+
+  </ul>
+</nav>
